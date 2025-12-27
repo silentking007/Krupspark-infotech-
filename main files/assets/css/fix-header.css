@@ -1,0 +1,93 @@
+/* ========================================
+   KrupSpark Header Fix Styles
+   Ensures proper header styling across all pages
+   Brand Colors from PDF:
+   - Navy: #0B132B
+   - Gold: #FFC300
+   - Blue: #007BFF
+   ======================================== */
+
+/* Main Navigation Bar */
+.header-1,
+.header-main,
+#header-sticky,
+.custom-header-main,
+div[class*="header-1"] {
+    background-color: #0B132B !important;
+    background-image: none !important;
+}
+
+/* Menu Links - White */
+.header-1 .main-menu ul li a,
+.header-main .main-menu ul li a,
+.custom-header-main .main-menu ul li a {
+    color: #FFFFFF !important;
+    transition: color 0.3s ease;
+}
+
+/* Menu Hover - Gold */
+.header-1 .main-menu ul li a:hover,
+.header-main .main-menu ul li a:hover,
+.custom-header-main .main-menu ul li a:hover,
+.header-1 .main-menu ul li:hover > a {
+    color: #FFC300 !important;
+}
+
+/* Active link styling */
+.header-1 .main-menu ul li.active > a {
+    color: #FFC300 !important;
+}
+
+/* Search Icon */
+.header-1 .search-icon,
+.header-main .search-icon,
+.search-trigger {
+    color: #FFFFFF !important;
+}
+
+.header-1 .search-icon:hover,
+.search-trigger:hover {
+    color: #FFC300 !important;
+}
+
+/* Hamburger Icon */
+.header-1 .sidebar__toggle i,
+.header-main .sidebar__toggle i {
+    color: #FFFFFF !important;
+}
+
+.header-1 .sidebar__toggle:hover i {
+    color: #FFC300 !important;
+}
+
+/* Submenu Background */
+.main-menu ul li .submenu {
+    background-color: #0B132B !important;
+}
+
+.main-menu ul li .submenu li a {
+    color: #FFFFFF !important;
+}
+
+.main-menu ul li .submenu li a:hover {
+    color: #FFC300 !important;
+    background-color: rgba(255, 195, 0, 0.1) !important;
+}
+
+/* Sticky Header */
+#header-sticky.sticky {
+    background-color: #0B132B !important;
+}
+
+/* Header Button - Gold */
+.header-button .theme-btn {
+    background-color: #FFC300 !important;
+    color: #0B132B !important;
+    font-weight: 600;
+    border: none;
+}
+
+.header-button .theme-btn:hover {
+    background-color: #FFFFFF !important;
+    color: #0B132B !important;
+}
