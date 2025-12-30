@@ -424,9 +424,9 @@ h4,
 h5,
 h6 {
   font-family: "Kumbh Sans", sans-serif;
-  margin: 0px;
+  margin: 10px;
   padding: 0;
-  color: var(--header);
+  color: #ffffff;
   text-transform: capitalize;
   transition: all 0.4s ease-in-out;
 }
@@ -499,7 +499,7 @@ p {
 }
 
 span {
-  margin: 0px;
+  margin: 18px;
   transition: all 0.4s ease-in-out;
 }
 
@@ -2911,6 +2911,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  line-height: 0px !important;
 }
 .header-top-wrapper .contact-list {
   display: flex;
@@ -3633,7 +3634,7 @@ span {
 }
 
 .offcanvas__info {
-  background: var(--bg) none repeat scroll 0 0;
+  background: #0B1C39 repeat scroll 0 0;
   border-left: 2px solid var(--theme2);
   position: fixed;
   right: 0;
@@ -4120,7 +4121,7 @@ body.product-page .post-pagination__btn.active {
 }
 
 .swiper-dot-2 {
-  border: 2px dotted var(--theme);
+  border:none;
   width: 146px;
   height: 41px;
   line-height: 37px;
@@ -4585,7 +4586,7 @@ body.product-page .post-pagination__btn.active {
   }
 }
 .hero-1 .hero-content p {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
 }
 .hero-1 .hero-content .hero-button {
@@ -5133,9 +5134,9 @@ body.product-page .post-pagination__btn.active {
 }
 
 .text-slider {
-  font-size: 50px;
-  height: 100px;
-  line-height: 90px;
+  font-size: 21px;
+  height: 50px;
+  line-height: 1px;
   font-weight: 700;
   text-transform: capitalize;
   color: var(--white);
@@ -5145,7 +5146,7 @@ body.product-page .post-pagination__btn.active {
 }
 @media (max-width: 767px) {
   .text-slider {
-    font-size: 36px;
+    font-size: 21px;
   }
 }
 .text-slider img {
@@ -5169,7 +5170,7 @@ body.product-page .post-pagination__btn.active {
 }
 .marquee-item.style-2 .text-slider {
   text-transform: capitalize;
-  font-size: 60px;
+  font-size: 35px;
   color: var(--header);
   margin-right: 40px;
   line-height: 0;
@@ -5355,7 +5356,8 @@ body.product-page .post-pagination__btn.active {
 .mean-container .mean-nav ul li a {
   width: 100%;
   padding: 10px 0;
-  color: var(--header);
+  color: #FFFFFF;
+  
   font-size: 16px;
   line-height: 1.5;
   font-weight: 500;
@@ -9154,3 +9156,76 @@ body.page-checkout .shipping-details {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================
+   PROJECT SLIDER DOTS - COMPLETE OVERRIDE
+============================================ */
+
+/* Override the blue box container */
+.swiper-dot-2 {
+    border: none !important;
+    width: auto !important;
+    height: auto !important;
+    line-height: normal !important;
+    background: transparent !important;
+    margin: 0 auto !important;
+    margin-top: 30px !important;
+    display: flex !important;
+    justify-content: center !important;
+    gap: 10px !important;
+}
+
+/* Override dot-3 container */
+.dot-3 {
+    border: none !important;
+    background: transparent !important;
+    display: flex !important;
+    justify-content: center !important;
+    gap: 10px !important;
+}
+
+/* Override individual dots */
+.swiper-dot-2 .swiper-pagination-bullet {
+    width: 10px !important;
+    height: 10px !important;
+    background: #CBD5E1 !important;
+    border: none !important;
+    border-radius: 50% !important;
+    opacity: 1 !important;
+}
+
+/* Override active dot */
+.swiper-dot-2 .swiper-pagination-bullet-active {
+    background: #3D4FFF !important;
+    width: 24px !important;
+    border-radius: 10px !important;
+}
+
+/* Remove the ::before pseudo-element causing issues */
+.swiper-dot-2 .swiper-pagination-bullet::before,
+.swiper-dot-2 .swiper-pagination-bullet-active::before {
+    display: none !important;
+    content: none !important;
+    border: none !important;
+}
