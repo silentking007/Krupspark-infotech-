@@ -13,4 +13,4 @@ Welcome to the official repository of **Orbize**, a full-stack digital agency of
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/silentking007/orbize.git
+   git clone https://github.com/silentking007/Krupspark-infotech-.git
