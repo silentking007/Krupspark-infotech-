@@ -644,7 +644,7 @@ span {
 }
 .about-wrapper .about-content .about-icon-items .icon-items {
   display: flex;
-  align-items: center;
+  align-items: flex-start; /* FIX: top-align icon & text */
   gap: 25px;
 }
 .about-wrapper .about-content .about-icon-items .icon-items .icon {
