@@ -894,3 +894,360 @@
     outline: none !important;
     box-shadow: none !important;
 } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================
+   FOOTER CONTACT INFO - ICON & TEXT SIDE BY SIDE
+============================================ */
+
+/* .footer-section .contact-info-area .contact-info-items {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 15px !important;
+}
+
+.footer-section .contact-info-area .contact-info-items .icon {
+    flex-shrink: 0 !important;
+}
+
+.footer-section .contact-info-area .contact-info-items .content {
+    flex: 1 !important;
+}
+
+.footer-section .contact-info-area .contact-info-items .content p {
+    margin: 0 0 5px 0 !important;
+}
+
+.footer-section .contact-info-area .contact-info-items .content h3 {
+    margin: 0 !important;
+}
+```
+
+---
+
+This will make the icon and text appear side by side like this:
+```
+[ICON]  Call Us 7/24
+        +44 07879 820227
+
+[ICON]  Make a Quote
+        Krupsparktech@gmail.com
+
+[ICON]  Location
+        29 Prospect Street Heywood Manchester OL10 2BB */
+
+
+
+
+        /* ============================================
+   FOOTER CONTACT INFO - ICON & TEXT SIDE BY SIDE
+============================================ */
+
+.contact-info-area {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+}
+
+.contact-info-area .contact-info-items {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 20px !important;
+    text-align: left !important;
+}
+
+.contact-info-area .contact-info-items .icon {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-shrink: 0 !important;
+    width: 70px !important;
+    height: 70px !important;
+}
+
+.contact-info-area .contact-info-items .content {
+    display: block !important;
+    text-align: left !important;
+}
+
+.contact-info-area .contact-info-items .content p {
+    margin: 0 0 5px 0 !important;
+    text-align: left !important;
+}
+
+.contact-info-area .contact-info-items .content h3 {
+    margin: 0 !important;
+    text-align: left !important;
+    font-size: 18px !important;
+}
+
+
+
+
+/* ============================================
+   FOOTER CONTACT - ICON & TEXT SAME ROW
+============================================ */
+
+.contact-info-area .contact-info-items {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 15px !important;
+}
+
+.contact-info-area .contact-info-items .icon {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-shrink: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.contact-info-area .contact-info-items .icon svg,
+.contact-info-area .contact-info-items .icon i {
+    margin-bottom: 0 !important;
+}
+
+.contact-info-area .contact-info-items .content {
+    display: block !important;
+}
+
+.contact-info-area .contact-info-items .content p,
+.contact-info-area .contact-info-items .content h3 {
+    margin: 0 !important;
+    text-align: left !important;
+}
+
+.contact-info-area .contact-info-items .content h3 {
+    font-size: 16px !important;
+}
+
+/* ============================================
+   FOOTER CONTACT INFO - FORCE HORIZONTAL LAYOUT
+============================================ */
+
+/* Make the contact area horizontal on desktop */
+.footer-section .contact-info-area {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+    gap: 30px !important;
+}
+
+/* Each contact item - icon and text side by side */
+.footer-section .contact-info-area .contact-info-items {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 20px !important;
+    flex: 1 !important;
+    min-width: 250px !important;
+}
+
+/* Icon container */
+.footer-section .contact-info-area .contact-info-items .icon {
+    flex-shrink: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 70px !important;
+    height: 70px !important;
+    margin: 0 !important;
+}
+
+/* Content next to icon */
+.footer-section .contact-info-area .contact-info-items .content {
+    flex: 1 !important;
+}
+
+.footer-section .contact-info-area .contact-info-items .content p {
+    margin: 0 0 5px 0 !important;
+    color: rgba(255,255,255,0.7) !important;
+    font-size: 14px !important;
+}
+
+.footer-section .contact-info-area .contact-info-items .content h3 {
+    margin: 0 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    word-break: break-word !important;
+}
+
+/* Mobile responsive - stack vertically on small screens */
+@media (max-width: 768px) {
+    .footer-section .contact-info-area {
+        flex-direction: column !important;
+    }
+    
+    .footer-section .contact-info-area .contact-info-items {
+        width: 100% !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================
+   PRICING SECTION - RIBBON TAG STYLING
+============================================ */
+
+/* Pricing card container */
+.pricing-items {
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+/* Tag container - positioned top right */
+.pricing-items .tag {
+    position: absolute !important;
+    top: 25px !important;
+    right: -5px !important;
+    z-index: 10 !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: stretch !important;
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Remove default ::before */
+.pricing-items .tag::before {
+    display: none !important;
+}
+
+/* The label text */
+.pricing-items .tag h6 {
+    position: relative !important;
+    background: #3D4FFF !important;
+    color: #fff !important;
+    padding: 12px 20px 12px 25px !important;
+    margin: 0 !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    white-space: nowrap !important;
+    border-radius: 0 !important;
+    line-height: 1 !important;
+}
+
+/* Arrow on the left side of label */
+.pricing-items .tag h6::before {
+    content: '' !important;
+    position: absolute !important;
+    left: -15px !important;
+    top: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    border-top: 19px solid transparent !important;
+    border-bottom: 19px solid transparent !important;
+    border-right: 15px solid #3D4FFF !important;
+}
+
+/* Active/highlighted card - Orange ribbon */
+.pricing-items.active .tag h6 {
+    background: #FF8C00 !important;
+}
+
+.pricing-items.active .tag h6::before {
+    border-right-color: #FF8C00 !important;
+}
+
+/* Ensure enough top padding in header */
+.pricing-items .pricing-header {
+    padding-top: 70px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================
+   REMOVE CUSTOM MOUSE CURSOR EFFECT
+============================================ */
+
+.mouse-cursor,
+.cursor-outer,
+.cursor-inner,
+.mouse-cursor.cursor-outer,
+.mouse-cursor.cursor-inner {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
