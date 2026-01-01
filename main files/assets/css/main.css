@@ -628,12 +628,12 @@ span {
   }
 }
 .about-wrapper .about-content .about-icon-items {
-    margin-top: 50px;
-    display: flex;
-    align-items: flex-start;   /* ✅ CHANGE HERE */
-    gap: 30px;
-    border-bottom: 1px solid var(--border);
-    padding-bottom: 40px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 40px;
 }
 @media (max-width: 1399px) {
   .about-wrapper .about-content .about-icon-items {
@@ -643,9 +643,9 @@ span {
   }
 }
 .about-wrapper .about-content .about-icon-items .icon-items {
-    display: flex;
-    align-items: flex-start;   /* ✅ CHANGE HERE */
-    gap: 25px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
 }
 .about-wrapper .about-content .about-icon-items .icon-items .icon {
   width: 80px;
