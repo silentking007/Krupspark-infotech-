@@ -1702,5 +1702,56 @@ Start your journey with our handpicked startup kits designed for rapid deploymen
         <script src="assets/js/wow.min.js"></script>
         <!--<< Main.js >>-->
         <script src="assets/js/main.js"></script>
+
+        <!-- WhatsApp Floating Button Start -->
+<style>
+    .whatsapp-float {
+        position: fixed;
+        width: 62px;
+        height: 62px;
+        bottom: 25px;
+        right: 25px;
+        background-color: #25D366;
+        color: #ffffff;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 32px;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        text-decoration: none;
+    }
+
+    .whatsapp-float:hover {
+        transform: scale(1.12);
+        box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+        color: #ffffff;
+    }
+
+    .whatsapp-float i {
+        font-size: 34px;
+    }
+
+    @media (max-width: 576px) {
+        .whatsapp-float {
+            width: 56px;
+            height: 56px;
+            font-size: 28px;
+            bottom: 20px;
+            right: 20px;
+        }
+    }
+</style>
+
+<a href="https://wa.me/4407879820227?text=Hello%20KrupSpark%20Team,%20I%20would%20like%20to%20know%20more%20about%20your%20services."
+   class="whatsapp-float"
+   target="_blank"
+   aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+</a>
+<!-- WhatsApp Floating Button End -->
     </body>
 </html>
